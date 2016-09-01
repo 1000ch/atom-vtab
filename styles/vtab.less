@@ -1,0 +1,32 @@
+atom-pane-container {
+  atom-pane {
+    flex-direction: row !important;
+  }
+}
+
+.tab-bar {
+  height: auto !important;
+  padding: 0 !important;
+  flex-direction: column !important;
+
+  .tab {
+    width: 14em !important;
+    height: auto !important;
+    flex-grow: 0 !important;
+
+    .title {
+      text-align: left !important;
+    }
+  }
+
+  .placeholder {
+    position: relative !important;
+    width: auto !important;
+    height: 1px !important;
+    margin: 0 !important;
+
+    &::after {
+      display: none !important;
+    }
+  }
+}
