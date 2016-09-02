@@ -2,6 +2,8 @@
 
 Verticalize tabs on Atom.
 
+![](demo.png)
+
 ## Installation
 
 ```bash
