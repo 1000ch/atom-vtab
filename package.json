@@ -1,6 +1,6 @@
 {
   "name": "vtab",
-  "privatae": true,
+  "private": true,
   "version": "0.2.0",
   "description": "Verticalize tabs on Atom.",
   "keywords": [
